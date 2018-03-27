@@ -1,8 +1,11 @@
 {
   "name": "lb-connector-mandrill",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Loopback connector module which allow to send emails via Mandrill",
   "main": "index.js",
+  "scripts":{
+    "test": "mocha --recursive"
+  },
   "keywords": [
     "loopback",
     "mandrill",
@@ -13,15 +16,15 @@
   "author": "Maciej Chmielarski <hello@evenemento.co> (http://evenemento.co/)",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.5",
     "mandrill-api": "^1.0.45",
     "q": "^1.4.1"
   },
   "devDependencies": {
-    "chai": "^1.9.2",
-    "loopback-datasource-juggler": "^2.44.0",
-    "mocha": "^2.0.1",
-    "rewire": "^2.1.2"
+    "chai": "^4.1.2",
+    "loopback-datasource-juggler": "^3.16.0",
+    "mocha": "^5.0.5",
+    "rewire": "^3.0.2"
   },
   "homepage": "https://github.com/evenemento/lb-connector-mandrill",
   "repository": {
